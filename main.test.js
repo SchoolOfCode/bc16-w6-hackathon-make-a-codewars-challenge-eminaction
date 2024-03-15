@@ -50,3 +50,13 @@ test("Input number, answer should be invalid input", function () {
 test("Input empty string, answer should be invalid input", function () {
   expect(countVowels(" ")).toBe("invalid input");
 });
+
+//test to see if vowels is 5 in OPERATION
+test("Count vowels in OPERATION, answer should be 8", function () {
+  expect(countVowels("OPERATION")).toBe(5);
+});
+
+//test to see if vowels is 3 in OPERATION
+test("Count vowels in ALPHABET, answer should be 8", function () {
+  expect(countVowels("ALPHABET")).toBe(3);
+});

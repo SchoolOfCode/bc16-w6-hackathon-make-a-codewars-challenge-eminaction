@@ -14,15 +14,17 @@ Idea:
 
   - Stretch Goal:
     - Different type of input eg number
-    - Returns "No Vowels" if input is a number or empty string
+    - Returns "invalid input" if input is a number or empty string
 
 - KATA INSTRUCTIONS:
-  Simon's favourite letters are vowels. He would love to be able to count how many vowels are in a word or sentence quickly, that's where we need your help!
+  Simon's favourite letters are vowels. He would love to be able to count how many vowels are in a word or sentence quickly, that's where we need your help! It may be helpful to note Simon finds it easier when all of the characters are lower case!
 
-  Write a function to count the vowels in a given word or sentence and return the number.
+  Write a function to count the vowels in a given word or sentence and return the number. The input won't always be a string so you will need to consider this in the function
 
-- Input will always be a string
-- Vowels: a, e, i, o, u
+  - Vowels: a, e, i, o, u
+  - Input needs to be lower case
+  - Return the number of vowels as an integer
+  - If the input is a number or empty string return "invalid input"
 
   # Steps:
 
@@ -33,3 +35,6 @@ Idea:
   ✅ Write a test to test the word "Orange red"
   ✅ Write a test to test the string "Adams family"
   ✅ Write a test to test the string "Emily ate an apple"
+  ✅ Write a test to test a number
+  ✅ Write a test to test an empty string
+  ✅ Write a test to test an empty string
