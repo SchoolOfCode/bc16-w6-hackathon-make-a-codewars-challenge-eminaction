@@ -1,4 +1,4 @@
-# Create a Codewars Kata
+# How many vowels you got? ALOT! 👏
 
 Idea 💡:
 
