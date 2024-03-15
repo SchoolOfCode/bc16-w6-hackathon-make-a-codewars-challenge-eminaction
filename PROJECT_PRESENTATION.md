@@ -13,11 +13,10 @@ Idea:
   - Returns the number of vowels
 
   - Stretch Goal:
-    - Has to be lower case word
     - Different type of input eg number
-    - Returns "No Vowels"
+    - Returns "No Vowels" if input is a number or empty string
 
-- KATA STORY:
+- KATA INSTRUCTIONS:
   Simon's favourite letters are vowels. He would love to be able to count how many vowels are in a word or sentence quickly, that's where we need your help!
 
   Write a function to count the vowels in a given word or sentence and return the number.
@@ -25,9 +24,12 @@ Idea:
 - Input will always be a string
 - Vowels: a, e, i, o, u
 
-  # Step 1:
+  # Steps:
 
-  Download Vitest
-  Write a barebones test (should pass)
-  Write a test to test the word "Apple"
-  Write a test to test the string "Adam ate an apple"
+  ✅ Download Vitest
+  ✅ Write a barebones test (should pass)
+  ✅ Write a test to test the word "Apple"
+  ✅ Write a test to test the word "Orange"
+  ✅ Write a test to test the word "Orange red"
+  ✅ Write a test to test the string "Adams family"
+  ✅ Write a test to test the string "Emily ate an apple"
