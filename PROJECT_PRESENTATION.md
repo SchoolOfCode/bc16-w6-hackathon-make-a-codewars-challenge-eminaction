@@ -24,6 +24,7 @@ Idea 💡:
   - Input needs to be lower case
   - Return the number of vowels as an integer
   - If the input is a number or empty string return "invalid input"
+  
 
 | Test Case | Input               | Expected Outcome        |
 | --------- | ------------------- | ----------------------- |
