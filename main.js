@@ -1,3 +1,5 @@
+// How many vowels you got? ALot!
+
 // Simon's favourite letters are vowels. He would love to be able to count how many vowels are in a word or sentence quickly
 // That's where we need your help!
 // It may be helpful to note Simon finds it easier when all of the characters are lower case!
@@ -10,23 +12,4 @@
 // - Input needs to be lower case
 // - Return the number of vowels as an integer
 
-export default function countVowels(word) {
-  if (typeof word === "number" || word === " ") {
-    return "invalid input";
-  }
-  let lowerWord = word.toLowerCase();
-
-  let vowelNum = 0;
-  for (let i = 0; i < lowerWord.length; i++) {
-    if (
-      lowerWord[i] === "a" ||
-      lowerWord[i] === "e" ||
-      lowerWord[i] === "i" ||
-      lowerWord[i] === "o" ||
-      lowerWord[i] === "u"
-    ) {
-      vowelNum++;
-    }
-  }
-  return vowelNum;
-}
+export default function countVowels(word) {}
