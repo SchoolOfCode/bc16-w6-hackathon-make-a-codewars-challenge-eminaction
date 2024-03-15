@@ -13,6 +13,7 @@ Idea:
   - Returns the number of vowels
 
   - Stretch Goal:
+    - needs to be lower case
     - Different type of input eg number
     - Returns "invalid input" if input is a number or empty string
 
